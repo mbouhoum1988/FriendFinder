@@ -9,14 +9,16 @@ there is a link to the app: [Friend Finder](https://mouhoubfriendfinder.herokuap
 you have to take a survey, and the app will display your match in popup window (modal), with the name of your match and a picture. like in this pictures. 
 
 
-![capture](https://github.com/mbouhoum1988/FriendFinder/blob/master/pictures/capture1.png)
+![capture](https://github.com/mbouhoum1988/FriendFinder/blob/master/pictures/Capture1.PNG)
 
 
-![capture](https://github.com/mbouhoum1988/FriendFinder/blob/master/pictures/capture2-1.png)
+![capture](https://github.com/mbouhoum1988/FriendFinder/blob/master/pictures/Capture2-1.PNG)
 
 
-![capture](https://github.com/mbouhoum1988/FriendFinder/blob/master/pictures/capture2-2.png)
+![capture](https://github.com/mbouhoum1988/FriendFinder/blob/master/pictures/Capture2-2.PNG)
 
 
-![capture](https://github.com/mbouhoum1988/FriendFinder/blob/master/pictures/capture3.png)
+![capture](https://github.com/mbouhoum1988/FriendFinder/blob/master/pictures/Capture3.PNG)
+
+
 
