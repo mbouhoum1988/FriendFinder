@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>take the survey</title>
+    <link rel="stylesheet" href="../../static/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body class="fluid-container">
+
+    <div class="container">
+
+        <h1>Survey Questions</h1>
+        <hr>
+        <div class="about">
+             <h1>About You</h1>
+            <div class="form-group">
+              <label for="name"> Name (Required)</label>
+              <input type="text" name="name" id="name" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="name"> Link to Photo Image (Required)</label>
+              <input type="text" name="photo" id="photo" class="form-control">
+            </div>
+              <hr>
+        </div>
+
+        <form method="post">
+
+            <div id="question">
+                <h2>Question 1</h2>
+                <p>Your mind is always buzzing with unexplored ideas and plans.</p>
+                <input id="option1" class="option" list="browsers" name="browser" placeholder="Select an option">
+                <datalist id="browsers">
+                    <option value="1(Strongly Disagree)">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5(Strongly Agree)">
+                </datalist>
+            </div>
+
+            <div id="question">
+                    <h2>Question 2</h2>
+                    <p>Generally speaking, you rely more on your experience than your imagination.</p>
+                    <input id="option2" class="option" list="browsers" name="browser" placeholder="Select an option">
+                    <datalist id="browsers">
+                        <option value="1(Strongly Disagree)">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5(Strongly Agree)">
+                    </datalist>
+            </div>
+
+            <div id="question">
+                    <h2>Question 3</h2>
+                    <p>You find it easy to stay relaxed and focused even when there is some pressure.</p>
+                    <input id="option3" class="option" list="browsers" name="browser" placeholder="Select an option">
+                    <datalist id="browsers">
+                        <option value="1(Strongly Disagree)">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5(Strongly Agree)">
+                    </datalist>
+            </div>
+
+            <div id="question">
+                    <h2>Question 4</h2>
+                    <p>You rarely do something just out of sheer curiosity.</p>
+                    <input id="option4" class="option" list="browsers" name="browser" placeholder="Select an option">
+                    <datalist id="browsers">
+                        <option value="1(Strongly Disagree)">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5(Strongly Agree)">
+                    </datalist>
+            </div>
+
+            <div id="question">
+                    <h2>Question 5</h2>
+                    <p>People can rarely upset you.</p>
+                    <input id="option5" class="option" list="browsers" name="browser" placeholder="Select an option">
+                    <datalist id="browsers">
+                        <option value="1(Strongly Disagree)">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5(Strongly Agree)">
+                    </datalist>
+            </div>
+
+            <div id="question">
+                    <h2>Question 6</h2>
+                    <p>It is often difficult for you to relate to other people’s feelings.</p>
+                    <input id="option6" class="option" list="browsers" name="browser" placeholder="Select an option">
+                    <datalist id="browsers">
+                        <option value="1(Strongly Disagree)">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5(Strongly Agree)">
+                    </datalist>
+            </div>
+
+            <div id="question">
+                    <h2>Question 7</h2>
+                    <p>In a discussion, truth should be more important than people’s sensitivities.</p>
+                    <input id="option7" class="option" list="browsers" name="browser" placeholder="Select an option">
+                    <datalist id="browsers">
+                        <option value="1(Strongly Disagree)">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5(Strongly Agree)">
+                    </datalist>
+            </div>
+
+            <div id="question">
+                    <h2>Question 8</h2>
+                    <p>You rarely get carried away by fantasies and ideas.</p>
+                    <input id="option8" class="option" list="browsers" name="browser" placeholder="Select an option">
+                    <datalist id="browsers">
+                        <option value="1(Strongly Disagree)">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5(Strongly Agree)">
+                    </datalist>
+            </div>
+
+            <div id="question">
+                    <h2>Question 9</h2>
+                    <p>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</p>
+                    <input id="option9" class="option" list="browsers" name="browser" placeholder="Select an option">
+                    <datalist id="browsers">
+                        <option value="1(Strongly Disagree)">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5(Strongly Agree)">
+                    </datalist>
+            </div>
+
+            <div id="question">
+                    <h2>Question 10</h2>
+                    <p>You feel more energetic after spending time with a group of people.</p>
+                    <input id="option10" class="option" list="browsers" name="browser" placeholder="Select an option">
+                    <datalist id="browsers">
+                        <option value="1(Strongly Disagree)">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5(Strongly Agree)">
+                    </datalist>
+            </div>
+
+            <br>
+            <button type="submit" id="submit-form" class="btn btn-primary btn-lg" class="form-control"><span class="fa fa-fire"></span> submit</button>
+            <hr>
+        </form>
+        <a href="/api/friend">API Friends List</a> <strong>|</strong><a href="https://github.com/mbouhoum1988/FriendFinder">  GitHub Repo</a>
+        
+        <div class="bg-modal">
+            <div class="modal-content">
+                <div class="close">+</div>
+                <div class="modal-heager">
+                    <h1>Best match</h1>
+                    <hr>
+                </div>
+                <div class="name-match"></div>
+                <div class="img-match"></div>
+            </div>
+        </div>
+    
+    </div>
+
+    <script type="text/javascript">
+      
+      $('#submit-form').on('click', (event) => {
+          event.preventDefault();
+        
+          let name = $('#name').val().trim();
+          let photo = $('#photo').val().trim();
+          let arrayFriend=[];
+          let newFriend=[];
+          let randomname;
+          let image;
+
+          const newFriends = {
+              name: $('#name').val().trim(),
+              photo: $('#photo').val().trim(),
+              scores:[ Number($('#option1').val().trim()), Number($('#option2').val().trim()), Number($('#option3').val().trim()), Number($('#option4').val().trim()), Number($('#option5').val().trim()), Number($('#option6').val().trim()), Number($('#option7').val().trim()), Number($('#option8').val().trim()), Number($('#option9').val().trim()), Number($('#option10').val().trim()),]
+          }
+          
+          if (name === '' || photo === '') {
+              alert('enter the required fields');
+          } else {
+        
+          $.get('/api/friend', (data) => {
+              for (i=0; i<data.length; i++) {
+                arrayFriend.push(data[i].scores);
+            }
+            let j = Math.floor(Math.random()*data.length);
+            randomname = data[j].name;
+              image = data[j].photo;
+               console.log("name: " +  JSON.stringify(randomname));
+               console.log("image: " +  JSON.stringify(image));
+
+            $.post('/api/friend', newFriends)
+            .then( (results) => {
+                newFriend.push(results.scores);
+          })
+
+          
+          $('.bg-modal').show();
+          $('.name-match').text(randomname);
+          let img = $("<img style='width:120px; height: 90px;'>");
+          img.attr('src', image);
+          $(".img-match").html(img);
+          $(".img-match").val("");
+
+    
+        });
+        }
+
+        $('.close').on('click', () => {
+            $('.bg-modal').hide();
+        })
+
+        $('.fluid-container').on('click', () => {
+            $('.bg-modal').hide();
+        })
+
+        $('#name').val("");
+        $('#photo').val("");
+      } )
+    
+    
+    </script>
+</body>
+</html>

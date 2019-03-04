@@ -1,0 +1,76 @@
+.fluid-container{
+    background: whitesmoke;
+}
+.container {
+    position: relative;
+}
+.jumbotron{
+    padding: 25px 20px;
+}
+.jumbotron .font{
+    font-size: 28px;
+}
+
+.option{
+    border-radius: 5px;
+    cursor: pointer;
+    background: lightgray;
+}
+
+#submit-form{
+    width: 100%;
+    display: block;
+}
+
+.container{
+    margin-bottom: 10px;
+}
+
+#question{
+    margin-top: 30px;
+}
+
+.bg-modal {
+    width: 600px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    margin: 0 auto;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+.modal-content {
+   width: 600px;
+   height: 350px;
+   background-color: white;
+   border-radius: 5px;
+   position: relative;
+   margin: 0 auto;
+
+}
+.close {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 60px;
+    transform: rotate(45deg);
+    cursor: pointer;
+
+}
+
+.name-match {
+    margin-left: 40px;
+    font-size: 40px;
+}
+
+.img-match {
+    width: 60px;
+    height: 60px;
+    margin: 5px 0 0 40px;
+}
